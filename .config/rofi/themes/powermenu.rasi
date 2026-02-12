@@ -1,0 +1,51 @@
+configuration {
+    show-icons: false;
+    font: "JetBrainsMono Nerd Font 13";
+}
+
+window {
+    width: 420px;
+    background-color: #141414;
+    border-radius: 16px;
+    border: 2px;
+    border-color: #2a2a2a;
+}
+
+mainbox {
+    padding: 20px;
+    background-color: transparent;
+}
+
+listview {
+    background-color: transparent;
+    lines: 4;
+    spacing: 12px;
+}
+
+element {
+    background-color: #1f1f1f;
+    text-color: #d0d0d0;
+    padding: 14px;
+    border-radius: 10px;
+}
+
+element selected {
+    background-color: #8A1543;
+    text-color: #ffffff;
+}
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+}
+inputbar {
+    enabled: false;
+}
+
+entry {
+    enabled: false;
+}
+
+prompt {
+    enabled: false;
+}

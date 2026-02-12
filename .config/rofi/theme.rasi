@@ -1,0 +1,75 @@
+* {
+    bg:        rgba(15, 18, 25, 0.75);
+    bg-alt:    rgba(25, 28, 35, 0.85);
+    fg:        #dcd7ba;
+    fg-alt:    #7fbbb3;
+    accent:    #7aa2f7;
+    urgent:    #e06c75;
+
+    font: "JetBrainsMono Nerd Font 12";
+}
+
+window {
+    transparency: "real";
+    background-color: @bg;
+    border-radius: 14px;
+    padding: 18px;
+    width: 480px;
+
+    /* fake depth */
+    border: 1px solid rgba(255,255,255,0.06);
+}
+
+mainbox {
+    spacing: 12px;
+}
+
+inputbar {
+    background-color: @bg-alt;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+prompt {
+    text-color: @accent;
+    padding: 0 6px;
+}
+
+entry {
+    text-color: @fg;
+    placeholder: "Search…";
+    placeholder-color: @fg-alt;
+}
+
+listview {
+    spacing: 6px;
+    scrollbar: false;
+}
+
+element {
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+element normal.normal {
+    text-color: @fg;
+}
+
+element selected.normal {
+    background-color: rgba(122, 162, 247, 0.18);
+    text-color: @fg;
+}
+
+element selected {
+    border: 1px solid rgba(122, 162, 247, 0.4);
+}
+
+element-icon {
+    size: 22px;
+    margin: 0 10px 0 0;
+}
+
+element-text {
+    vertical-align: 0.5;
+}

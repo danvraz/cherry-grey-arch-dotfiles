@@ -1,0 +1,87 @@
+kkconfiguration {
+    show-icons: false;
+}
+
+* {
+    cherry:        #8A1543;
+    bg:            #1a1b1e;
+    bg-alt:        #222329;
+    text:          #e6e6e6;
+
+    font: "JetBrainsMono Nerd Font 11";
+}
+
+window {
+    width: 420px;
+    background-color: @bg;
+    border: 2px;
+    border-color: @cherry;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+mainbox {
+    background-color: transparent;
+    spacing: 10px;
+}
+
+inputbar {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+}
+
+prompt {
+    text-color: @cherry;
+}
+
+textbox-prompt-colon {
+    text-color: @cherry;
+}
+
+textbox,
+entry {
+    background-color: transparent;
+    border: 0;
+}
+
+listview {
+    background-color: transparent;
+    lines: 8;
+    spacing: 6px;
+    scrollbar: false;
+}
+
+element {
+    background-color: @bg-alt;
+    text-color: @text;
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 0;
+}
+
+element normal,
+element active {
+    background-color: @bg-alt;
+}
+
+element selected {
+    background-color: @cherry;
+    text-color: #ffffff;
+}
+
+element-icon {
+    background-color: transparent;
+    text-color: transparent;
+    size: 0;
+}
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+}
+
+scrollbar {
+    width: 0;
+}
+

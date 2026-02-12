@@ -1,0 +1,84 @@
+[global]
+### Geometry ###
+width = 280
+height = (0, 120)
+offset = (20, 20)
+origin = top-right
+scale = 0
+
+### Appearance ###
+font = JetBrainsMono Nerd Font 10
+line_height = 0
+corner_radius = 0
+
+frame_width = 1
+separator_height = 1
+separator_color = "#3a1a28"
+
+padding = 8
+horizontal_padding = 12
+
+### Text ###
+alignment = left
+ellipsize = middle
+word_wrap = yes
+ignore_newline = no
+markup = full
+
+### Timing ###
+show_age_threshold = 60
+idle_threshold = 120
+
+### Stacking ###
+stack_duplicates = true
+hide_duplicate_count = false
+
+### Indicators ###
+show_indicators = yes
+
+### Icons (HUD-style: disabled) ###
+icon_position = off
+enable_recursive_icon_lookup = false
+min_icon_size = 0
+max_icon_size = 0
+
+### History ###
+sticky_history = yes
+history_length = 20
+
+### Mouse ###
+mouse_left_click = close_current
+mouse_middle_click = do_action, close_current
+mouse_right_click = close_all
+
+### Misc ###
+browser = /usr/bin/xdg-open
+always_run_script = true
+ignore_dbusclose = false
+
+### Wayland ###
+force_xwayland = false
+# layer = top   # uncomment if you want notifications over fullscreen apps
+
+
+[urgency_low]
+background = "#1e1f22"
+foreground = "#6b3a4a"
+frame_color = "#3a2a2a"
+timeout = 6
+
+
+[urgency_normal]
+background = "#1e1f22"
+foreground = "#8A1543"
+frame_color = "#8A1543"
+timeout = 8
+
+[urgency_critical]
+background = "#241c1c"
+foreground = "#b83263"
+frame_color = "#8A1543"
+timeout = 10000
+
+[experimental]
+per_monitor_dpi = false

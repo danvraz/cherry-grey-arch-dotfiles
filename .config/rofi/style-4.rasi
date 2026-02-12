@@ -1,0 +1,54 @@
+/* clean header */
+@accent:          #8A1543;
+@accent-hi:       #FF4B98;
+
+/* ---- window ---- */
+window {
+    width: 40%;
+    border: 2px solid @accent;
+    background-color: @background-alt;
+    padding: 18px;
+}
+
+/* ---- layout ---- */
+mainbox {
+    spacing: 10px;
+    background-color: transparent;
+    children: [ "inputbar", "listview" ];
+}
+
+/* ---- search bar ---- */
+inputbar {
+    background-color: @background;
+    border: 2px solid @accent;
+    padding: 10px;
+    children: [ "prompt", "entry" ];
+}
+prompt {
+    text-color: @accent-hi;
+    font: "JetBrainsMono Nerd Font 11";
+}
+entry {
+    expand: true;
+    text-color: @foreground;
+    placeholder: "search…";
+}
+
+/* ---- list ---- */
+listview {
+    spacing: 4px;
+    scrollbar: false;
+}
+
+element {
+    background-color: transparent;
+    padding: 6px;
+    text-color: @foreground;
+}
+element selected {
+    background-color: @accent;
+    text-color: @background;
+}
+element-text {
+    highlight: @accent-hi;
+}

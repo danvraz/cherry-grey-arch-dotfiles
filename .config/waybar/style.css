@@ -1,0 +1,56 @@
+/* ===== GLOBAL ===== */
+* {
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 12px;
+  color: #C8C8C8;
+  border-radius: 0;
+}
+
+/* ===== BAR BODY ===== */
+window#waybar {
+  background: rgba(12, 13, 17, 0.50);   /* lighter so wallpaper shines */
+border-bottom: 1px solid #8A1543;
+
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== WORKSPACES ===== */
+#workspaces button {
+  padding: 0 8px;
+  color: #9A9A9A;
+}
+
+#workspaces button.active {
+  color: #A22C38;                          /* blood red */
+  border-bottom: 2px solid #A22C38;        /* underline = terminal cursor aesthetic */
+}
+
+#workspaces button:hover {
+  background: rgba(28, 28, 32, 0.6);        /* subtle hover, keeps focus */
+}
+
+/* ===== CLOCK ===== */
+#clock {
+  padding: 0 14px;
+  font-weight: 500;
+  color: #C8C8C8;
+}
+
+/* ===== MODULES ===== */
+#battery,
+#network,
+#bluetooth,
+#wireplumber,
+#tray {
+  padding: 0 6px;
+}
+
+#battery.warning {
+  color: #A22C38;                           /* red when low */
+}
+
+/* ===== TRAY ICON SPACING ===== */
+#tray > * {
+  margin: 0 4px;
+}

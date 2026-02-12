@@ -1,0 +1,30 @@
+# Background
+color=000000aa
+
+# Text
+show-keyboard-layout
+font=JetBrainsMono
+font-size=32
+indicator
+indicator-radius=120
+indicator-thickness=10
+
+# Indicator colors
+key-hl-color=88c0d0
+bs-hl-color=bf616a
+inside-color=00000000
+ring-color=88c0d0
+line-color=00000000
+separator-color=00000000
+
+# Text colors
+text-color=eceff4
+text-clear-color=eceff4
+text-ver-color=eceff4
+text-wrong-color=bf616a
+
+# Messages
+clock
+timestr=%H:%M
+datestr=%A, %d %B
+

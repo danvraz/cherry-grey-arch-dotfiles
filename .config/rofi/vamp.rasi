@@ -1,0 +1,33 @@
+* {
+    font: "JetBrainsMono Nerd Font 12";
+    background-color: #0c0c0eE6; /* translucent charcoal */
+    text-color: #C7C7C7;
+    border: 0;
+}
+
+window {
+    width: 40%;
+    border: 2px solid #8A1543; /* vamp accent */
+    padding: 10px;
+}
+
+inputbar {
+    border: 2px solid #8A1543;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+listview {
+    spacing: 6px;
+    fixed-height: false;
+}
+
+element {
+    padding: 6px;
+}
+
+element selected {
+    background-color: rgba(138, 21, 67, 0.20); /* vamp wash */
+    border-left: 2px solid #8A1543;
+    text-color: #ffffff; /* brighten text on select */
+}

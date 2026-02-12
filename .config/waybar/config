@@ -1,0 +1,73 @@
+{
+  "layer": "top",
+  "position": "bottom",
+  "height": 26,
+
+  "modules-left": [
+    "hyprland/workspaces",
+    "wlr/taskbar"
+  ],
+
+  "modules-center": [
+    "clock"
+  ],
+
+  "modules-right": [
+    "wireplumber",
+    "bluetooth",
+    "network",
+    "battery"
+  ],
+
+  "clock": {
+    "format": "{:%H:%M}",
+    "tooltip": false
+  },
+
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "persistent-workspaces": {
+      "*": 5
+    }
+  },
+
+  "wlr/taskbar": {
+    "format": "{icon}",
+    "icon-size": 18,
+    "tooltip": false,
+    "on-click": "activate",
+    "on-click-middle": "close",
+    "spacing": 4
+  },
+
+  "wireplumber": {
+    "format": "󰕾",
+    "format-muted": "󰝟",
+    "on-click": "~/.local/bin/sound-popup"
+  },
+
+  "bluetooth": {
+    "format": "",
+    "format-connected": "",
+    "tooltip": true,
+    "on-click": "~/.local/bin/bt-popup"
+  },
+
+
+"network": {
+  "format-wifi": "󰤨  {essid}",
+  "format-ethernet": "󰈀  wired",
+  "format-disconnected": "󰤭  offline",
+  "tooltip": false,
+  "on-click": "rofi -show wifi -modi wifi:~/.local/bin/rofi-wifi -theme ~/.config/rofi/wifi.rasi"
+},
+
+
+  "battery": {
+    "format": "{capacity}%"
+  },
+
+  "tray": {
+    "spacing": 6
+  }
+}

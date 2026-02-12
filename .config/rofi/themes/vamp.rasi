@@ -1,0 +1,49 @@
+/* --- Minimal Vamp Theme (no imports / no variables) --- */
+
+window {
+    background-color: #0E0E12F2;
+    font: "JetBrainsMono Nerd Font 11";
+    width: 34%;
+    padding: 24px;
+}
+
+mainbox {
+    spacing: 12px;
+    children: [ "inputbar", "listview" ];
+}
+
+inputbar {
+    background-color: #0E0E12F2;
+    border: 2px solid #8A1543;
+    padding: 8px;
+    children: [ "prompt", "entry" ];
+}
+
+prompt {
+    text-color: #8A1543;
+}
+
+entry {
+    expand: true;
+    text-color: #E0D2D2;
+    placeholder: "search...";
+}
+
+listview {
+    spacing: 4px;
+}
+
+element {
+    padding: 6px;
+    background-color: transparent;
+    text-color: #E0D2D2;
+}
+
+element selected {
+    background-color: #8A1543;
+    text-color: #0E0E12F2;
+}
+
+element-text {
+    highlight: #8A1543;
+}

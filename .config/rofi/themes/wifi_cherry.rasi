@@ -1,0 +1,66 @@
+* {
+    cherry:        #8A1543;
+    bg:            #1a1b1e;
+    bg-alt:        #222329;
+    text:          #e6e6e6;
+    text-muted:    #9a9a9a;
+
+    font: "JetBrainsMono Nerd Font 11";
+}
+
+window {
+    width: 420px;
+    background-color: @bg;
+    border: 2px;
+    border-color: @cherry;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+mainbox {
+    background-color: transparent;
+    spacing: 8px;
+}
+
+listview {
+    background-color: transparent;
+    lines: 8;
+    spacing: 6px;
+    scrollbar: false;
+}
+
+element {
+    background-color: @bg-alt;
+    text-color: @text;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+element-text {
+    text-color: inherit;
+}
+
+element selected {
+    background-color: @cherry;
+    text-color: #ffffff;
+}
+
+inputbar {
+    background-color: @bg-alt;
+    text-color: @text;
+    border-radius: 6px;
+    padding: 6px 10px;
+}
+
+prompt {
+    text-color: @cherry;
+}
+
+textbox-prompt-colon {
+    text-color: @cherry;
+}
+
+scrollbar {
+    handle-color: @cherry;
+    width: 4px;
+}

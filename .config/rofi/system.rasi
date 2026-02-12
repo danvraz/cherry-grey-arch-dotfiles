@@ -1,0 +1,94 @@
+/* =========================
+   Global colors
+   ========================= */
+
+* {
+    bg:         #1e1e1e;
+    bg-alt:     #232323;
+    fg:         #e6e6e6;
+    fg-dim:     #9a9a9a;
+    accent:     #8A1543;
+    border:     #2c2c2c;
+}
+
+/* =========================
+   Window
+   ========================= */
+
+window {
+    background-color: @bg;
+    border: 2px;
+    border-color: @border;
+    border-radius: 10px;
+    padding: 14px;
+    width: 420px;
+}
+
+/* =========================
+   Main container
+   ========================= */
+
+mainbox {
+    background-color: @bg;
+    spacing: 10px;
+}
+
+/* =========================
+   Remove input bar entirely
+   ========================= */
+
+inputbar {
+    enabled: false;
+}
+
+prompt {
+    enabled: false;
+}
+
+entry {
+    enabled: false;
+}
+
+/* =========================
+   List view
+   ========================= */
+
+listview {
+    background-color: @bg;
+    lines: 9;
+    spacing: 4px;
+    scrollbar: false;
+}
+
+/* =========================
+   List elements
+   ========================= */
+
+element {
+    background-color: transparent;
+    text-color: @fg-dim;
+    border-radius: 6px;
+    padding: 10px 14px;
+}
+
+element selected {
+    background-color: @accent;
+    text-color: #ffffff;
+}
+
+/* =========================
+   Text handling
+   ========================= */
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+}
+
+/* =========================
+   Kill icons / bullets
+   ========================= */
+
+element-icon {
+    size: 0px;
+}

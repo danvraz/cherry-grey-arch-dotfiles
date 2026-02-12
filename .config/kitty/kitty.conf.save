@@ -1,0 +1,68 @@
+q# ===============================
+# FONT
+# ===============================
+font_family      JetBrainsMono Nerd Font
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+
+font_size 10
+adjust_line_height 2
+adjust_column_width 0
+
+# ===============================
+# CURSOR
+# ===============================
+cursor_shape block
+cursor_blink_interval 0.5
+cursor_stop_blinking_after 15
+
+# ===============================
+# WINDOW
+# ===============================
+background_opacity 0.65
+window_padding_width 14
+confirm_os_window_close 0
+
+# ===============================
+# SCROLLBACK
+# ===============================
+scrollback_lines 5000
+
+# ===============================
+# TABS (disabled look)
+# ===============================
+tab_bar_style powerline
+tab_powerline_style slanted
+active_tab_font_style bold
+inactive_tab_font_style normal
+
+# ===============================
+# COLORS (dark, Hyprland-friendly)
+# ===============================
+background #0b0e14
+foreground #c0caf5
+
+selection_background #33467c
+selection_foreground #c7c7c7
+
+cursor #c0caf5
+
+color0  #1d202f
+color1  #f7768e
+color2  #9ece6a
+color3  #e0af68
+color4  #7a7a7a
+color5  #bb9af7
+color6  #7dcfff
+color7  #a9b1d6
+
+color8  #414868
+color9  #f7768e
+color10 #9ece6a
+color11 #e0af68
+color12 #9a9a9a
+color13 #bb9af7
+color14 #7dcfff
+color15 #c0caf5
+
