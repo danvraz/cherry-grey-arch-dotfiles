@@ -1,0 +1,23 @@
+UNIT FILE                             STATE   PRESET
+cups.path                             enabled disabled
+auto-cpufreq.service                  enabled disabled
+bluetooth.service                     enabled disabled
+cups.service                          enabled disabled
+lm_sensors.service                    enabled disabled
+NetworkManager-dispatcher.service     enabled disabled
+NetworkManager-wait-online.service    enabled disabled
+NetworkManager.service                enabled disabled
+nvidia-hibernate.service              enabled disabled
+nvidia-persistenced.service           enabled disabled
+nvidia-powerd.service                 enabled disabled
+nvidia-resume.service                 enabled disabled
+nvidia-suspend-then-hibernate.service enabled disabled
+nvidia-suspend.service                enabled disabled
+power-profiles-daemon.service         enabled disabled
+proton.VPN.service                    enabled disabled
+systemd-timesyncd.service             enabled enabled
+cups.socket                           enabled disabled
+systemd-userdbd.socket                enabled enabled
+remote-fs.target                      enabled enabled
+
+20 unit files listed.
