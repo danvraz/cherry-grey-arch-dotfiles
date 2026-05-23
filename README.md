@@ -104,7 +104,3 @@ cp .bashrc ~/
 The setup follows a **cherry red (`#cc2936`) on cool grey** palette — sharp, minimal, and opinionated. Everything from Hyprland borders to Waybar modules is tuned to this color scheme.
 
 ---
-
-## 📝 License
-
-Do whatever you want with this. MIT.
